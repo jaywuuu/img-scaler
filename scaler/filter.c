@@ -18,11 +18,11 @@ extern FILTER Dflt_Filter_3x3 = {
 };
 
 
-UINT32 initFilter(FILTER *filt, UINT32 sz) {
-	UINT32 retval = OK;
+uint32 initFilter(FILTER *filt, uint32 sz) {
+	uint32 retval = OK;
 
 	filt->sz = sz;
-	filt->coefs = (UINT32)malloc()
+	filt->coefs = (uint32)malloc(sizeof(uint32)*sz);
 
 	return retval;
 }

@@ -13,9 +13,9 @@ typedef struct tagBITMAP_FILE_HEADER {
 } BITMAP_FILE_HEADER;
 
 typedef struct tagIMAGE {
-	UINT32 width;
-	UINT32 height;
-	UINT32 depth;		// number of colour channels
+	uint32 width;
+	uint32 height;
+	uint32 depth;		// number of colour channels
 } IMAGE;
 
-UINT32 loadImage();
+uint32 loadImage();

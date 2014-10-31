@@ -6,9 +6,12 @@
 * author: Jason Wu
 */
 
-typedef unsigned int UINT32;
-typedef signed int SINT32;
-typedef unsigned char BYTE;
+typedef unsigned int uint16;
+typedef unsigned long int uint32;
+
+typedef unsigned char byte;
+
+typedef signed int sint16;
 
 typedef enum {
 	OK = 0,

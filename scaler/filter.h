@@ -9,8 +9,6 @@
 #include "types.h"
 
 typedef struct tagFILTER {
-	UINT32 sz;			// Size of filter. 
-	UINT32[] coefs;		// coefficients
+	uint32 sz;			// Size of filter. 
+	uint32 coefs[];		// coefficients
 } FILTER;
-
-UINT32 initDefaultFilters();

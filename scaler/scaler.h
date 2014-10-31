@@ -15,5 +15,5 @@
 * input:	BYTE *	pointer to image structure
 *			UINT32	scaling factor
 */
-UINT32 scale(IMAGE *, UINT32);
+uint32 scale(IMAGE *, uint32, );
 

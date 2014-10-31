@@ -9,10 +9,9 @@
 #include <stdlib.h>
 #include "scaler.h"
 
-UINT32 scale(IMAGE *img, UINT32 scaleFactor) {
-	UINT32 retval = OK;
+uint32 scale(IMAGE *img, uint32 scaleFactor) {
+	uint32 retval = OK;
 	
-
 
 	return retval;
 }
