@@ -13,9 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="stb">
+      <UniqueIdentifier>{a1edac87-591b-4220-8ab0-0817cb4301d6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="scaler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="filter.c">
@@ -34,6 +43,12 @@
     </ClInclude>
     <ClInclude Include="filter.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stb\stb_image.h">
+      <Filter>stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stb\stb_image_write.h">
+      <Filter>stb</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

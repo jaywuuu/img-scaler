@@ -65,9 +65,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="filter.c" />
+    <ClCompile Include="image.c" />
+    <ClCompile Include="main.c" />
     <ClCompile Include="scaler.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\stb\stb_image.h" />
+    <ClInclude Include="..\stb\stb_image_write.h" />
     <ClInclude Include="filter.h" />
     <ClInclude Include="image.h" />
     <ClInclude Include="scaler.h" />

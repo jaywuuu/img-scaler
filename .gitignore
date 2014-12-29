@@ -4,4 +4,6 @@
 *.exe
 *.bin
 lib/*
-
+*.user
+*/Debug/*
+Debug/*
